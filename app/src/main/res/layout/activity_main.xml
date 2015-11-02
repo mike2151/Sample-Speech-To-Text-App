@@ -1,0 +1,51 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_toLeftOf="@+id/txtText"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/appblue">
+
+    <ImageButton
+        android:id="@+id/btnSpeak"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+
+        android:contentDescription="@string/speak"
+        android:src="@android:drawable/ic_btn_speak_now"
+        android:layout_above="@+id/txtText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="71dp" />
+
+        <ImageButton
+            android:id="@+id/help"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:contentDescription="@string/speak"
+            android:src="@android:drawable/ic_menu_help"
+
+            android:layout_above="@+id/btnSpeak"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/txtText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFF"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+</RelativeLayout>

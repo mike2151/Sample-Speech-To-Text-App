@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sample Speech To Text Application</string>
+    <string name="speak">Speak</string>
+    <string name="instructions">Simply tap the button and a Google Voice interface will pop up. Once the interface
+    pops up, speak. Once speech is detected to stop, the text just spoken will be displayed in the center of the
+    screen</string>
+
+</resources>
